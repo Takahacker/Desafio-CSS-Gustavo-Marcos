@@ -27,6 +27,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 /* .btn {
@@ -78,3 +80,24 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } */
+
+
+.appbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 0.5rem;
+  background-color: #f7d736;
+  color: black;
+}
+
+.logo{
+  width: 5.2%;
+}
+
+.subtitle{
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 80%;
+}
