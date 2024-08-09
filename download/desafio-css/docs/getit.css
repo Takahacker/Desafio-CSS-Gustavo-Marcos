@@ -109,6 +109,7 @@ body {
   background-color: white;
   padding: 0.5rem;
   margin-top: 1rem;
+  margin-bottom: 1.5rem;
   color: black;
   width: 30%;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
@@ -146,4 +147,99 @@ main{
   cursor: pointer;
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
   font-size: 75%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background-color: #f7d736; 
+  border-radius: 0.3rem;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  width: 200px;
+  height: 110px;
+  font-family: 'Permanent Marker', cursive;
+  transition: transform 0.2s;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(-1.5deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(1.5deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(-2.5deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(2.5deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(3deg);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-content {
+  font-size: 1.1rem;
+  color: #4c4c4c;
+  text-align: center;
 }
